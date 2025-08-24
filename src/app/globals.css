@@ -31,12 +31,35 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fadeIn {
-  animation: fadeIn .8s ease-out forwards;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn-scroll {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn-scroll {
+  animation: fadeIn-scroll 0.8s linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
 
 .light {
@@ -47,25 +70,31 @@ body {
 .light.horizontal {
   height: 2px;
   width: 200%;
-  background: linear-gradient(to left, #fff 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to left, #fff 0%, rgba(0, 0, 0, 0) 100%);
   animation: move-x linear infinite;
 }
 
 .light.vertical {
   width: 2px;
   height: 200%;
-  background: linear-gradient(to top, #fff 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to top, #fff 0%, rgba(0, 0, 0, 0) 100%);
   animation: move-y linear infinite;
 }
 
 @keyframes move-x {
-  from { transform: translateX(-100%); }
-  to { transform: translateX(100%); }
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
-
 
 @keyframes move-y {
-  from { transform: translateY(-100%); }
-  to { transform: translateY(100%); }
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100%);
+  }
 }
-
