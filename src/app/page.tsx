@@ -1,6 +1,7 @@
 import { HeroSection } from '@/app/components/HeroSection'
-import { About } from './components/About';
-import { Connect } from './components/Connect';
+import { About } from '@/app/components/About';
+import { Connect } from '@/app/components/Connect';
+import { Experiences } from '@/app/components/Experiences'
 
 export default function Home() {
 
@@ -8,6 +9,7 @@ export default function Home() {
     <>
       <HeroSection />
       <About />
+      <Experiences />
       <Connect />
     </>
   );

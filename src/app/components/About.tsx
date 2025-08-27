@@ -1,8 +1,11 @@
 export const About = () => {
   return (
-    <section className="py-16 px-4 bg-zinc-900">
-      <div className="max-w-6xl mx-auto">
-        <div className="bg-gray-900/50 rounded-xl p-8 backdrop-blur-sm border border-gray-800 animate-fadeIn-scroll">
+    <section className="py-10 px-4 bg-zinc-900">
+      <div className="max-w-4xl mx-auto">
+        <div
+          className="relative p-8 rounded-2xl overflow-hidden backdrop-blur-sm border border-gray-800 animate-fadeIn-scroll"
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-blue-500/5" />
           <h2
             className="text-3xl font-bold mb-4 text-center">
             Um pouco sobre mim
@@ -16,6 +19,7 @@ export const About = () => {
             <p className="text-gray-200">
               Acredito que programação vai além da técnica: envolve criatividade, adaptabilidade e a busca constante por aprendizado. Gosto de explorar diferentes formas de resolver problemas, sempre com disposição para compartilhar conhecimento e colaborar com o time.
             </p>
+
           </div>
         </div>
       </div>

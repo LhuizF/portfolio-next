@@ -1,10 +1,10 @@
 export const Connect = () => {
 
   return (
-    <section className="py-20 px-4">
+    <section className="pb-20 pt-10 px-4 bg-zinc-900">
       <div className="max-w-4xl mx-auto">
         <div
-          className="relative p-8 rounded-2xl overflow-hidden backdrop-blur-lg border border-gray-800 bg-black/50"
+          className="relative p-8 rounded-2xl overflow-hidden backdrop-blur-lg border border-gray-800"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-blue-500/5" />
           <div className="relative z-10 animate-fadeIn-scroll">
