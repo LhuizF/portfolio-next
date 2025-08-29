@@ -14,7 +14,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Luiz Henrique Ferreira",
+  title: "Luiz H. Ferreira",
   description: "Personal website and blog of Luiz H. Ferreira",
 };
 
