@@ -8,19 +8,20 @@ export const Connect = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-blue-500/10" />
           <div className="relative z-10">
-            <div className="font-inter">
-              <h2 className="text-3xl font-bold mb-8 text-gray-200">
+            <div className="font-inter text-center">
+              <h2 className="text-3xl font-bold mb-4 text-gray-200">
                 Conecte-se comigo
               </h2>
+              <p className="text-gray-400 mb-4 max-w-xl mx-auto">Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.</p>
 
               <a
                 href="mailto:luizhff@gmail.com"
-                className="inline-block mb-8 px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
+                className="inline-block mb-4 px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
               >
                 luizhff@gmail.com
               </a>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-sm mx-auto">
                 <a
                   href="https://github.com/lhuizf"
                   target="_blank"
@@ -47,12 +48,12 @@ export const Connect = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-200">LinkedIn</p>
+                    <p className="font-semibold text-gray-200 text-left">LinkedIn</p>
                     <p className="text-sm text-gray-400">Luiz H. Ferreira</p>
                   </div>
                 </a>
 
-                <a
+                {/* <a
                   href="https://www.instagram.com/lhuizy/"
                   target="_blank"
                   className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
@@ -80,7 +81,7 @@ export const Connect = () => {
                     <p className="font-semibold text-gray-200">Spotify</p>
                     <p className="text-sm text-gray-400">Luiz H. Ferreira</p>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

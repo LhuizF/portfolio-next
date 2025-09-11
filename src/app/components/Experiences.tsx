@@ -25,7 +25,7 @@ const experiences = [
 
 export const Experiences = () => {
   return (
-    <section className="pt-10 pb-10 md:pb-20 px-4 bg-zinc-900 relative">
+    <section className="pt-10 pb-10 px-4 bg-zinc-900 relative">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center font-inter">
           Experiências
