@@ -4,10 +4,10 @@ const experiences = [
     company: 'Nuai',
     period: 'Nov 2023 até o momento',
     responsibilities: [
-      'Desenvolvimento de aplicativo desktop modular em <strong>Electron</strong>, com <strong>front-end em React</strong> e <strong>back-end em Node.js (NestJS)</strong>',
-      'Idealização e implementação de <strong>pipeline de CI/CD</strong> para build e atualização remota do app, integrado a eventos do <strong>Firebase Firestore</strong>',
-      'Configuração e implementação de <strong>testes automatizados</strong> com <strong>Jest</strong> em React e NestJS, com <strong>validação pre-push</strong> para garantir qualidade de código',
-      'Implementação de sistema de <strong>telemedicina em tempo real</strong>, com <strong>filas via WebSockets</strong> e <strong>chamadas de vídeo integradas</strong> no app (React) e dashboard (Angular)'
+      'Desenvolvi um aplicativo desktop modular em <strong>Electron</strong>, com front-end em <strong>React</strong> e back-end em <strong>Node.js (NestJS)</strong>, garantindo escalabilidade e fácil manutenção.',
+      'Estruturei e implementei <strong> pipelines de CI/CD </strong> para build e deploy de APIs, além de pipeline de atualização remota dos apps, integrados a eventos do <strong>Firebase Firestore</strong>.',
+      'Responsável pela configuração de <strong>testes automatizados com Jest</strong> em <strong>React</strong> e <strong>NestJS</strong>, implementando validação pre-push que evitou regressões e aumentou a confiabilidade em produção.',
+      'Implementei um sistema de telemedicina, com filas em tempo real via <strong>WebSockets</strong> e chamadas de vídeo integradas, tanto nos apps (<strong>Electron/React</strong> e <strong>React-native</strong>) quanto no dashboard administrativo (<strong>Angular</strong>).'
     ]
   },
   {
@@ -15,10 +15,11 @@ const experiences = [
     company: 'Grupo Voitto',
     period: 'Dez 2021 a Nov 2023',
     responsibilities: [
-      'Implementação de um novo gateway de pagamento, com pagamentos de pix ,cartão recorrência.',
-      'Sistema de notificação interna por email para clientes inadimplentes atravesse de webhooks.',
-      'Assumi a responsabilidade de implementação de novos layout em todo app e novas telas react-native e styles-component.',
-      'Responsável por auxiliar e orientar estagiários, incluindo acompanhamento de demandas e revisão de código (code review).'
+      'Implementei um novo <strong>gateway</strong> de pagamentos, incluindo PIX, cartão de crédito e recorrência,<strong> aumentando a confiabilidade </strong>,<strong> diminuindo erros </strong> e <strong>diversidade de meios de pagamento. </strong>',
+      'Desenvolvi um sistema de notificações internas por e-mail, disparadas via <strong>webhooks</strong>, para alertar o time financeiro sobre clientes inadimplentes, <strong> reduzindo esforços manuais</strong> e otimizando o processo de cobrança.',
+      'Liderei a implementação de novos layouts e telas em todo o aplicativo <strong>React Native</strong>, utilizando <strong>styled-components</strong> para garantir uma melhor experiência do usuário (UI/UX).',
+      'Assumi papel de referência técnica, auxiliando e <strong> orientando estagiários </strong> com acompanhamento de demandas e <strong> code reviews</strong>, promovendo boas práticas de desenvolvimento.'
+
     ]
   }
 ]
